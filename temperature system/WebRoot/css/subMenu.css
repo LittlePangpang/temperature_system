@@ -1,0 +1,106 @@
+/*主菜单*/
+.wrap { margin: 0 auto; width: 100%; height:42px; background-color:#666666;}
+#menu { padding: 0 0 8px; margin: 0 0 25px; height: 20px;  }
+#menu li { display: inline; }
+#menu li a { 
+	float: left; 
+	width: 120px; 
+	text-align: center; 
+	margin: 0 0px 0 0; 
+	font-weight: bold; 
+	font-size: 13px; 
+	padding: 16px 0 21px; 
+	color: #ccc; 
+	text-decoration:none;
+}
+#menu li a:hover, #menu li a.current { 
+	color: #AF1515; 
+	background: url(../image/menu.gif) no-repeat center bottom; 
+}
+
+/*子菜单*/
+.submenu { margin: 0 auto; width: 100%; height:32px; background-color:#999999;}
+#subul { padding: 0; margin: 0; height: 20px;  }
+#subul li { display: inline; }
+#subul li a { 
+	float: left; 
+	width: 110px; 
+	text-align: center;
+	font-weight: bold; 
+	font-size: 13px; 
+	padding: 10px 0 10px; 
+	color: #ccc; 
+	text-decoration:none;
+}
+#subul li a:hover, #subul li a.subMenuCurrent { 
+	color:#000; 
+	background:#FFFFFF no-repeat center bottom;
+}
+
+.buttonCss{
+	background:#FF9900;
+	font-size:16px;
+	cursor:hand;
+	text-align:center;
+}
+
+/*子菜单*/
+
+#subMenuTab {
+	background: url(../image/submenutableGBC.gif) center bottom; 
+}
+#subMenuTab tr td a{ 
+	height:25px;
+	float: right; 
+	text-align: center; 
+	color: #000; 
+	font-size:13px;
+	text-decoration:none;
+}
+#subMenuTab tr td a:hover,#subMenuTab tr td a.subMenuCurrent{
+	font-weight:bold;
+	color:#000066;
+	background: url(../image/submenu.gif) no-repeat center bottom; 
+}
+/* main menu */
+
+#mainmenu {
+	clear: both;
+	width: 1160px;
+	height: 66px;
+	background: url(../image/mainmenu.png) no-repeat;
+}
+
+#mainmenu ul {
+	margin: 0px;
+	padding: 20px 0 0 0;
+	list-style: none;
+}
+
+#mainmenu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#mainmenu ul li a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 2px 30px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #0000CC;	
+	font-weight: bold;
+	outline: none;
+	background: url(../image/mainmenu_divider.png) repeat-y right;
+}
+
+#mainmenu li a:hover, #mainmenu li .maincurrent {
+	color: #FFFFFF;
+}
+
+#mainmenu li .mainlast{
+	background: none;
+}
+/* end of main menu */

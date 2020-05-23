@@ -1,0 +1,503 @@
+/* General */
+body {
+	width: 100%;
+	font-family: Tahoma;
+	font-size: 10px;
+	line-height: 130%;
+	padding: 0px;
+	margin:auto;
+}
+.a_regi {
+  color : #FF0000;
+}
+.a:link {
+	color: #666666;
+	text-decoration: none;
+}
+.a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.a:hover {
+	color: RED;
+	text-decoration:none;
+}
+.a:active {
+	color: #999999;
+	text-decoration: none;
+}
+.must_label {
+	color: #FF0000;
+}
+h1 {
+	font-size:27px;
+	margin-top: 10px;
+	color: #006699;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+input {
+	border: 1px solid #CCCCCC;	
+	font-family: Tahoma;
+	font-size: 13px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top:1px;
+}
+textarea {
+	border: 1px solid #CCCCCC;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top:2px;
+	padding-left:3px;
+}
+select {
+	border: 1px solid #CCCCCC;
+	font-family: Tahoma;
+	font-size: 11px;
+	height: 18px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+
+/* Login */
+.line_top {
+	background-image: url(../image/line_mv.png);
+	background-repeat: repeat-x;
+}
+.line_v {
+	background-image: url(../image/login_line_v.gif);
+	background-repeat: repeat-y;
+	width: 9px;
+}
+.line_copyright {
+	background-image: url(../image/topnav_bg_white.gif);
+	background-repeat: repeat-x;	
+}
+/* 榧犳爣鍦ㄤ笂闈㈡椂鐨勯鑹�*/
+tr.over td{
+background: #F0F0E0;
+}
+tr.double td{
+background: #ECFFFE;
+}
+tr.onclicked td{
+color:red;
+}
+
+img {
+	margin: 0; 
+	padding: 0; 
+	border: 0; border:none;
+	cursor: hand;
+} 
+.pager1 {
+	line-height: 19px;
+	height: 19px;
+	float: left;
+	border:1px solid #EAEAEA;
+	vertical-align: bottom;
+	background-color:#FFFFFF;
+}
+.tab1{
+	border-collapse:collapse;
+	border:1px solid #dddddd;
+}
+.tab1 th { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd; 
+	letter-spacing: 0px; 
+	text-align: center; 
+	background-color:#FFFFFF;/*#E6E6E6*/
+	height: 23px;
+	font-size: 12px;
+	color:#000000;
+	word-break:break-all;
+} 
+.tab1 td { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd; 
+	height:20px;
+	font-size: 10px;
+	text-align:center;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:nowrap;
+}
+.rateDetailTab{
+	border: 0px;
+}
+.rateDetailTab th { 
+	border: 0px; 
+} 
+.rateDetailTab td { 
+	border: 0px; 
+}
+.tabRateDetail{
+	border-collapse:collapse;
+	border:1px solid #dddddd;
+	float:right;
+	cellspacing:2px;
+	cellpadding:2px;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.tabRateDetail th { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd; 
+	letter-spacing: 0px; 
+	text-align: left; 
+	background-color:#FFFFFF;/*#E6E6E6*/
+	height: 23px;
+	font-size: 12px;
+	color:#000000;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:normal;
+} 
+.tabRateDetail td { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd; 
+	font-size: 10px;
+	text-align:left;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:normal;
+	height:auto;
+}
+.tabDrayageDetail{
+	border-collapse:collapse;
+	border:1px solid #dddddd;
+	float:right;
+	cellspacing:2px;
+	cellpadding:2px;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.tabDrayageDetail th { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd;
+	letter-spacing: 0px; 
+	text-align: left; 
+	background-color:#dddddd;/*#E6E6E6*/
+	height: 23px;
+	font-size: 12px;
+	color:#000000;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:normal;
+} 
+.tabDrayageDetail td { 
+	border-right: 1px solid #cccccc; 
+	border-bottom: 1px solid #cccccc; 
+	font-size: 10px;
+	text-align:left;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:normal;
+	height:auto;
+}
+.tabEquipmentDetail{
+	border-collapse:collapse;
+	border:1px solid #dddddd;
+	float:left;
+	cellspacing:2px;
+	cellpadding:2px;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.tabEquipmentDetail th { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd; 
+	letter-spacing: 0px; 
+	text-align: center; 
+	background-color:#FFFFFF;/*#E6E6E6*/
+	font-weight:bold;
+	color:#444444;
+	height: 23px;
+	font-size: 12px;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:normal;
+} 
+.tabEquipmentDetail td { 
+	border-right: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd; 
+	font-size: 10px;
+	text-align:left;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:normal;
+	height:auto;
+}
+.editbox{
+     background: #ffffff;
+     border: 1px solid #b7b7b7;
+     color: #003366;
+     cursor: text;
+     font-family: "arial";
+     font-size: 9pt;
+     height: 18px;
+     padding: 1px;
+}
+
+.marginedit{
+     background: #ffffff;
+     border: 1px solid #b7b7b7;
+     color: #003366;
+     cursor: text;
+     font-family: "arial";
+     height: auto;
+     padding: 0px;
+     width:100%;
+     margin:0px;
+}
+
+#Screendiv {
+	position:absolute;
+	z-index: 9999;
+	background: #CCCCCC;
+	display: none;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+/*Search button*/
+.btnSearch
+{
+    background-image: url(../images/aBG.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 28px;
+    text-decoration: none;
+}
+.btnSearch:link{
+    background-image: url(../image/aBG.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 28px;
+    text-decoration: none;
+}
+.btnSearch:visited{
+    background-image: url(../image/aBG.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 28px;
+    text-decoration: none;
+	}
+.btnSearch:hover{
+    background-image: url(../image/aBG.gif);
+    background-repeat:no-repeat;
+    color: #EEEEEE;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 28px;
+    text-decoration: none;
+	}
+.btnSearch:active{
+    background-image: url(../image/aBG.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 28px;
+    text-decoration: none;
+	}
+/*Search button which has menu at left*/
+.btnSearchMenuLeft
+{
+    background-image: url(../images/aBG_L.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 121px;
+    height: 28px;
+    text-decoration: none;
+}
+.btnSearchMenuLeft:link{
+    background-image: url(../image/aBG_L.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 121px;
+    height: 28px;
+    text-decoration: none;
+}
+.btnSearchMenuLeft:visited{
+    background-image: url(../image/aBG_L.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 121px;
+    height: 28px;
+    text-decoration: none;
+	}
+.btnSearchMenuLeft:hover{
+    background-image: url(../image/aBG_L.gif);
+    background-repeat:no-repeat;
+    color: #EEEEEE;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 121px;
+    height: 28px;
+    text-decoration: none;
+	}
+.btnSearchMenuLeft:active{
+    background-image: url(../image/aBG_L.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 121px;
+    height: 28px;
+    text-decoration: none;
+	}
+/*Search button which has menu at right*/
+.btnSearchMenuRight
+{
+    background-image: url(../images/aBG_R.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 29px;
+    height: 28px;
+    text-decoration: none;
+}
+.btnSearchMenuRight:link{
+    background-image: url(../image/aBG_R.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 29px;
+    height: 28px;
+    text-decoration: none;
+}
+.btnSearchMenuRight:visited{
+    background-image: url(../image/aBG_R.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 29px;
+    height: 28px;
+    text-decoration: none;
+	}
+.btnSearchMenuRight:hover{
+    background-image: url(../image/aBG_R.gif);
+    background-repeat:no-repeat;
+    color: #EEEEEE;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 29px;
+    height: 28px;
+    text-decoration: none;
+	}
+.btnSearchMenuRight:active{
+    background-image: url(../image/aBG_R.gif);
+    background-repeat:no-repeat;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 29px;
+    height: 28px;
+    text-decoration: none;
+	}
+.tiptable{
+	border-collapse:collapse;
+	border:1px solid #CCCCCC;
+}
+.tiptable th { 
+	border-right: 1px solid #CCCCCC; 
+	border-bottom: 1px solid #CCCCCC; 
+	letter-spacing: 0px; 
+	text-align: center; 
+	background-color:#E6E6E6;
+	height: 20px;
+	font-size: 12px;
+	color:#000000;
+	word-break:break-all;
+} 
+.tiptable td { 
+	border-right: 1px solid #CCCCCC; 
+	border-bottom: 1px solid #CCCCCC; 
+	height:20px;
+	font-size: 10px;
+	text-align:center;
+	word-break:break-all;
+	word-wrap:break-word;
+	white-space:nowrap;
+}
